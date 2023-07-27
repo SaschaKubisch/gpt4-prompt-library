@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": "CS",
       "style": "Socratic",
       "description": "Focuses on asking and answering questions to stimulate critical thinking.",
       "parameters": [
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "CE",
       "style": "Expository",
       "description": "Teaching or explaining complex concepts in a straightforward and detailed manner.",
       "parameters": [
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "CC",
       "style": "Collaborative",
       "description": "Learning is a collaborative process with active engagement and discussion.",
       "parameters": [
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "CD",
       "style": "Demonstrative",
       "description": "Emphasizes showing or demonstrating examples or models to explain concepts.",
       "parameters": [

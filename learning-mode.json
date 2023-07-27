@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": "LS",
       "mode": "Self-paced learning",
       "description": "Learning at your own pace, following your own path of interest and exploration.",
       "parameters": {
@@ -11,7 +11,7 @@
       }
     },
     {
-      "id": "2",
+      "id": "LP",
       "mode": "Project-based learning",
       "description": "Applying learned concepts by working on projects or challenges, developing practical solutions.",
       "parameters": {
@@ -22,7 +22,7 @@
       }
     },
     {
-      "id": "3",
+      "id": "LE",
       "mode": "Experiential learning",
       "description": "Hands-on learning experiences, such as simulations, case studies, or real-world tasks.",
       "parameters": {
