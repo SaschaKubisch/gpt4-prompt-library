@@ -1,70 +1,62 @@
 [
     {
       "id": "1",
-      "type": "formality",
-      "description": "This parameter determines the level of formality in the conversation.",
-      "value": "informal",
-      "options": [
-        "informal",
-        "formal"
+      "style": "Socratic",
+      "description": "Focuses on asking and answering questions to stimulate critical thinking.",
+      "parameters": [
+        {
+          "name": "Question Frequency",
+          "range": "1-10"
+        },
+        {
+          "name": "Complexity Level",
+          "range": "1-10"
+        }
       ]
     },
     {
       "id": "2",
-      "type": "directness",
-      "description": "This parameter determines how direct the conversation is.",
-      "value": "indirect",
-      "options": [
-        "indirect",
-        "direct"
+      "style": "Expository",
+      "description": "Teaching or explaining complex concepts in a straightforward and detailed manner.",
+      "parameters": [
+        {
+          "name": "Detail Level",
+          "range": "1-10"
+        },
+        {
+          "name": "Simplicity Level",
+          "range": "1-10"
+        }
       ]
     },
     {
       "id": "3",
-      "type": "interaction",
-      "description": "This parameter determines the style of interaction in the conversation.",
-      "value": "monologue",
-      "options": [
-        "monologue",
-        "dialogue",
-        "question and answer"
+      "style": "Collaborative",
+      "description": "Learning is a collaborative process with active engagement and discussion.",
+      "parameters": [
+        {
+          "name": "Interaction Level",
+          "range": "1-10"
+        },
+        {
+          "name": "Collaboration Level",
+          "range": "1-10"
+        }
       ]
     },
     {
       "id": "4",
-      "type": "philosophy",
-      "description": "This parameter determines the philosophical approach of the conversation.",
-      "value": "neutral",
-      "options": [
-        "neutral",
-        "socratic",
-        "stoic",
-        "existentialist",
-        "utilitarian"
-      ]
-    },
-    {
-      "id": "5",
-      "type": "humor",
-      "description": "This parameter determines the level of humor in the conversation.",
-      "value": "none",
-      "options": [
-        "none",
-        "dry",
-        "witty",
-        "slapstick"
-      ]
-    },
-    {
-      "id": "6",
-      "type": "emotion",
-      "description": "This parameter determines the emotional tone of the conversation.",
-      "value": "neutral",
-      "options": [
-        "neutral",
-        "positive",
-        "negative",
-        "mixed"
+      "style": "Demonstrative",
+      "description": "Emphasizes showing or demonstrating examples or models to explain concepts.",
+      "parameters": [
+        {
+          "name": "Example Frequency",
+          "range": "1-10"
+        },
+        {
+          "name": "Model Complexity",
+          "range": "1-10"
+        }
       ]
     }
   ]

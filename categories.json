@@ -1,67 +1,208 @@
 {
+  "name": "Prompt Categories",
+  "description": "This file categorizes prompts based on the area of knowledge they pertain to and their functionality.",
   "categories": [
     {
-      "id": "1",
-      "name": "Conversation Style",
-      "description": "This category controls the style of conversation.",
-      "parameters": [
+      "categoryName": "Content Focus",
+      "categoryID": "CF",
+      "values": [
         {
-          "type": "formality",
-          "value": "informal",
-          "options": ["informal", "formal"]
+          "discipline": [
+            "Software Development",
+            "Requirements Engineering",
+            "Architecture",
+            "Frontend Development",
+            "Backend Development",
+            "Integration",
+            "Deployment",
+            "Testing",
+            "Blockchain",
+            "Data Science"
+          ],
+          "description": "Prompts related to software development, design patterns, algorithms, debugging, testing, etc.",
+          "parameters": {
+            "complexity": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ],
+            "practicality": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "categoryName": "Learning Mode",
+      "categoryID": "LM",
+      "values": [
+        {
+          "name": "Direct Instruction",
+          "ID": "LM-DI",
+          "description": "Prompts aiming for a straightforward explanation or information sharing.",
+          "parameters": {
+            "complexity": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ],
+            "depth": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
         },
         {
-          "type": "directness",
-          "value": "indirect",
-          "options": ["indirect", "direct"]
+          "name": "Socratic Dialogue",
+          "ID": "LM-SD",
+          "description": "Prompts designed to stimulate critical thinking and to illuminate ideas.",
+          "parameters": {
+            "complexity": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ],
+            "depth": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
+        },
+        {
+          "name": "Practical Application",
+          "ID": "LM-PA",
+          "description": "Prompts for applying knowledge to practical situations or problems.",
+          "parameters": {
+            "complexity": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ],
+            "depth": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "2",
-      "name": "Content Category",
-      "description": "This category defines the subject of the conversation.",
-      "parameters": [
+      "categoryName": "Conversation Style",
+      "categoryID": "CS",
+      "values": [
         {
-          "type": "subject",
-          "value": "technology",
-          "options": ["science", "art", "history", "technology"]
+          "name": "Monologue",
+          "ID": "CS-M",
+          "description": "Prompts for when the AI mostly speaks and the user mostly listens.",
+          "parameters": {
+            "engagement": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "interaction": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
+        },
+        {
+          "name": "Interactive",
+          "ID": "CS-I",
+          "description": "Prompts for a back-and-forth exchange between the user and AI.",
+          "parameters": {
+            "engagement": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "interaction": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
+        },
+        {
+          "name": "Guided",
+          "ID": "CS-G",
+          "description": "Prompts for when the AI guides the user through a process or task.",
+          "parameters": {
+            "engagement": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "interaction": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "3",
-      "name": "Learning Mode",
-      "description": "This category determines the format of the learning content.",
-      "parameters": [
+      "categoryName": "Strategy",
+      "categoryID": "ST",
+      "values": [
         {
-          "type": "mode",
-          "value": "step-by-step guide",
-          "options": ["step-by-step guide", "deep-dive", "brief overview", "quiz"]
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Strategy",
-      "description": "This category sets the overarching strategy for learning or problem solving.",
-      "parameters": [
+          "name": "80/20 Rule",
+          "ID": "ST-8020",
+          "description": "Prompts designed to prioritize the most impactful 20% of content.",
+          "parameters": {
+            "priority": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "focus": [
+              "Broad",
+              "Medium",
+              "Narrow"
+            ]
+          }
+        },
         {
-          "type": "strategy",
-          "value": "80/20 rule",
-          "options": ["80/20 rule", "top-down", "bottom-up", "SWOT analysis", "OODA loop", "growth hacking", "Lean Startup"]
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Custom Modules",
-      "description": "User defined modules that further specify and customize the conversation.",
-      "parameters": [
+          "name": "Top-Down",
+          "ID": "ST-TD",
+          "description": "Prompts aiming for understanding the big picture before diving into details.",
+          "parameters": {
+            "priority": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "focus": [
+              "Broad",
+              "Medium",
+              "Narrow"
+            ]
+          }
+        },
         {
-          "type": "custom_module_1",
-          "value": "default_value",
-          "options": ["default_value", "option1", "option2"]
+          "name": "Bottom-Up",
+          "ID": "ST-BU",
+          "description": "Prompts focused on understanding individual components before seeing how they fit into the overall system.",
+          "parameters": {
+            "priority": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "focus": [
+              "Broad",
+              "Medium",
+              "Narrow"
+            ]
+          }
         }
       ]
     }
