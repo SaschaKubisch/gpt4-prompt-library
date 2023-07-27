@@ -1,57 +1,53 @@
 [
     {
       "id": "1",
-      "category": "Engineering",
-      "description": "The science and technology of building, structures, machines, apparatus, and systems",
+      "category": "Theory",
+      "description": "Covers the theoretical aspects, principles, and foundational knowledge of a topic.",
       "subcategories": [
-        "Civil Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering",
-        "Software Engineering"
+        {
+          "id": "1.1",
+          "subcategory": "Concepts & Principles",
+          "description": "Basic ideas and principles that form the foundation of a topic."
+        },
+        {
+          "id": "1.2",
+          "subcategory": "Advanced Theory",
+          "description": "Deep dive into the theoretical aspects, exploring complex ideas and models."
+        }
       ]
     },
     {
       "id": "2",
-      "category": "Sciences",
-      "description": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical and natural world",
+      "category": "Practical Application",
+      "description": "Involves hands-on tasks, case studies, examples, and problem-solving activities.",
       "subcategories": [
-        "Physics",
-        "Chemistry",
-        "Biology",
-        "Geology"
+        {
+          "id": "2.1",
+          "subcategory": "Hands-on Activities",
+          "description": "Exercises or tasks that allow you to apply what you've learned in a practical way."
+        },
+        {
+          "id": "2.2",
+          "subcategory": "Case Studies",
+          "description": "In-depth studies of specific examples, usually focusing on the process and results."
+        }
       ]
     },
     {
       "id": "3",
-      "category": "Arts",
-      "description": "The expression or application of human creative skill and imagination, typically in a visual form",
+      "category": "Professional Development",
+      "description": "Focuses on skills and knowledge needed for career advancement or specialization in a field.",
       "subcategories": [
-        "Visual Arts",
-        "Music",
-        "Dance",
-        "Theater"
-      ]
-    },
-    {
-      "id": "4",
-      "category": "Humanities",
-      "description": "The academic disciplines that study human culture",
-      "subcategories": [
-        "History",
-        "Philosophy",
-        "Linguistics",
-        "Literature"
-      ]
-    },
-    {
-      "id": "5",
-      "category": "Social Sciences",
-      "description": "The study of society and the relationships among individuals within a society",
-      "subcategories": [
-        "Psychology",
-        "Sociology",
-        "Anthropology",
-        "Economics"
+        {
+          "id": "3.1",
+          "subcategory": "Career Skills",
+          "description": "Skills that are beneficial for career progression, such as leadership, communication, etc."
+        },
+        {
+          "id": "3.2",
+          "subcategory": "Specialization Knowledge",
+          "description": "Deep knowledge in a specific area within a field."
+        }
       ]
     }
   ]

@@ -1,0 +1,36 @@
+[
+    {
+      "id": "1",
+      "mode": "Self-paced learning",
+      "description": "Learning at your own pace, following your own path of interest and exploration.",
+      "parameters": {
+        "engagement_level": ["Low", "Medium", "High"],
+        "interaction_level": ["Low", "Medium", "High"],
+        "structure": ["Flexible", "Semi-structured", "Structured"],
+        "feedback_timing": ["Delayed", "Immediate", "Periodic"]
+      }
+    },
+    {
+      "id": "2",
+      "mode": "Project-based learning",
+      "description": "Applying learned concepts by working on projects or challenges, developing practical solutions.",
+      "parameters": {
+        "engagement_level": ["Low", "Medium", "High"],
+        "interaction_level": ["Low", "Medium", "High"],
+        "structure": ["Flexible", "Semi-structured", "Structured"],
+        "feedback_timing": ["Delayed", "Immediate", "Periodic"]
+      }
+    },
+    {
+      "id": "3",
+      "mode": "Experiential learning",
+      "description": "Hands-on learning experiences, such as simulations, case studies, or real-world tasks.",
+      "parameters": {
+        "engagement_level": ["Low", "Medium", "High"],
+        "interaction_level": ["Low", "Medium", "High"],
+        "structure": ["Flexible", "Semi-structured", "Structured"],
+        "feedback_timing": ["Delayed", "Immediate", "Periodic"]
+      }
+    }
+  ]
+  
