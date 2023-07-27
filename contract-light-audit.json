@@ -1,0 +1,7 @@
+{
+    "task": {
+      "scenario": "Evaluate Solidity contract for security vulnerabilities",
+      "contract": "INSERT_SOLIDITY_CONTRACT_HERE"
+    }
+  }
+  
