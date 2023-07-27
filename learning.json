@@ -1,0 +1,27 @@
+// 80 20 Prompt
+{
+    "system": "openai.chat.models.v1",
+    "user": {
+      "role": "user",
+      "content": "Hello ChatGPT, I want to become an expert in {prompt engineering}. Can you help me create an 80/20 game plan, focusing on the most impactful actions that will enable me to gain proficiency in this subject as efficiently as possible? Please take into account the following:"
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "{Starting Resources: software architect. familiar with json formats and general programming}"
+      },
+      {
+        "role": "system",
+        "content": "{Time Availability: 1 hour per day}"
+      },
+      {
+        "role": "system",
+        "content": "{Learning Preferences: hands on}"
+      },
+      {
+        "role": "system",
+        "content": "{Key Objectives: I want to have a best practice library of json formatted prompts that are generic and modifiable by finetuning of parameters. i want to have a overview of functions and variable, for example different explanation methodologies and other parameters. ideally i will obtain a system that is controllable by a gui and lets the user creatively use ai for learning, programming and other things}"
+      }
+    ]
+  }
+  
