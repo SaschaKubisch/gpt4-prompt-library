@@ -1,0 +1,58 @@
+[
+    {
+      "id": "1",
+      "category": "Engineering",
+      "description": "The science and technology of building, structures, machines, apparatus, and systems",
+      "subcategories": [
+        "Civil Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Software Engineering"
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Sciences",
+      "description": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical and natural world",
+      "subcategories": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Geology"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Arts",
+      "description": "The expression or application of human creative skill and imagination, typically in a visual form",
+      "subcategories": [
+        "Visual Arts",
+        "Music",
+        "Dance",
+        "Theater"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Humanities",
+      "description": "The academic disciplines that study human culture",
+      "subcategories": [
+        "History",
+        "Philosophy",
+        "Linguistics",
+        "Literature"
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Social Sciences",
+      "description": "The study of society and the relationships among individuals within a society",
+      "subcategories": [
+        "Psychology",
+        "Sociology",
+        "Anthropology",
+        "Economics"
+      ]
+    }
+  ]
+  
