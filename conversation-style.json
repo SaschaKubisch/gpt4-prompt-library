@@ -1,0 +1,71 @@
+[
+    {
+      "id": "1",
+      "type": "formality",
+      "description": "This parameter determines the level of formality in the conversation.",
+      "value": "informal",
+      "options": [
+        "informal",
+        "formal"
+      ]
+    },
+    {
+      "id": "2",
+      "type": "directness",
+      "description": "This parameter determines how direct the conversation is.",
+      "value": "indirect",
+      "options": [
+        "indirect",
+        "direct"
+      ]
+    },
+    {
+      "id": "3",
+      "type": "interaction",
+      "description": "This parameter determines the style of interaction in the conversation.",
+      "value": "monologue",
+      "options": [
+        "monologue",
+        "dialogue",
+        "question and answer"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "philosophy",
+      "description": "This parameter determines the philosophical approach of the conversation.",
+      "value": "neutral",
+      "options": [
+        "neutral",
+        "socratic",
+        "stoic",
+        "existentialist",
+        "utilitarian"
+      ]
+    },
+    {
+      "id": "5",
+      "type": "humor",
+      "description": "This parameter determines the level of humor in the conversation.",
+      "value": "none",
+      "options": [
+        "none",
+        "dry",
+        "witty",
+        "slapstick"
+      ]
+    },
+    {
+      "id": "6",
+      "type": "emotion",
+      "description": "This parameter determines the emotional tone of the conversation.",
+      "value": "neutral",
+      "options": [
+        "neutral",
+        "positive",
+        "negative",
+        "mixed"
+      ]
+    }
+  ]
+  

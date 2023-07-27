@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Conversation Style",
+      "description": "This category controls the style of conversation.",
+      "parameters": [
+        {
+          "type": "formality",
+          "value": "informal",
+          "options": ["informal", "formal"]
+        },
+        {
+          "type": "directness",
+          "value": "indirect",
+          "options": ["indirect", "direct"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Content Category",
+      "description": "This category defines the subject of the conversation.",
+      "parameters": [
+        {
+          "type": "subject",
+          "value": "technology",
+          "options": ["science", "art", "history", "technology"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Learning Mode",
+      "description": "This category determines the format of the learning content.",
+      "parameters": [
+        {
+          "type": "mode",
+          "value": "step-by-step guide",
+          "options": ["step-by-step guide", "deep-dive", "brief overview", "quiz"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Strategy",
+      "description": "This category sets the overarching strategy for learning or problem solving.",
+      "parameters": [
+        {
+          "type": "strategy",
+          "value": "80/20 rule",
+          "options": ["80/20 rule", "top-down", "bottom-up", "SWOT analysis", "OODA loop", "growth hacking", "Lean Startup"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Custom Modules",
+      "description": "User defined modules that further specify and customize the conversation.",
+      "parameters": [
+        {
+          "type": "custom_module_1",
+          "value": "default_value",
+          "options": ["default_value", "option1", "option2"]
+        }
+      ]
+    }
+  ]
+}
