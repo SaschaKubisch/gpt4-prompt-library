@@ -1,0 +1,68 @@
+
+    "user_profile": {
+      "name": "Jessie Jones",
+      "age": "36",
+      "profession": "Entrepreneur, Former Founder & CEO",
+      "location": "California, USA",
+      "education": "Master of Business Administration",
+      "personality_traits": [
+        "Introverted",
+        "Detail-oriented",
+        "Adventurous",
+        "Optimistic"
+      ],
+      "values_and_beliefs": [
+        "Family",
+        "Environment"
+      ],
+      "goals_and_aspirations": [
+        "Share experiences",
+        "Spread kindness"
+      ],
+      "skills": [
+        "Business & Digital Strategy",
+        "eCommerce",
+        "Marketing"
+      ],
+      "interests_hobbies": [
+        "Yoga",
+        "Reading Non-fiction",
+        "Listening to Jazz Music"
+      ],
+      "health_wellness": [
+        "Practices yoga and meditation",
+        "Follows a plant-based diet"
+      ],
+      "personal_achievements": [
+        "Launched two successful startups",
+        "Published a book on leadership"
+      ],
+      "important_relationships": [
+        "Close-knit family",
+        "Few but very close friends"
+      ],
+      "values_in_interactions": [
+        "Honesty",
+        "Loyalty",
+        "Creativity"
+      ],
+    "specific_requirements": {
+      "avoid_slang": "Yes",
+      "prefer_active_voice": "Yes",
+      "use_technical_jargon": "No",
+    },
+    "role": "You are an expert in technology.",
+    "context": "Write an article on how AI will impact the world. Cite 3 relevant examples to the audience.",
+    "tone": "Semi-formal",
+    "language_style": "Professional",
+    "writing_style": "Expository",
+    "voice": "First person",
+    "response_length": "250 words",
+    "audience": "Tech-savvy teens",
+    "purpose": "To educate and inspire",
+    "use_humor": "Some",
+    "avoided_topics": [
+      "Politics",
+      "Religion"
+    ]
+  }
